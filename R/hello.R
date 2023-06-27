@@ -1,3 +1,6 @@
+install.packages("roxygen2")
+library(roxygen2)
+
 library(devtools)
 
 use_r("hello") #will create a file called R/hello.R

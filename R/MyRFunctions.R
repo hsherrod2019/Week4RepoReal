@@ -1,3 +1,16 @@
+#' My Function 1
+#' Load Raman Spectra data from OpenSpecy
+#'
+#' This function calculates the average wavenumber and generates a message if there is no data inputted.
+#'
+#'
+#'
+#'
+#' @return The average wavenumber
+#' @export
+#'
+#' Print the average wavenumber
+
 ## Code 1: Calculating average wavenumber
 data(raman_hdpe, package = "OpenSpecy")
 

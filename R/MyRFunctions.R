@@ -1,3 +1,5 @@
+#' My R Functions
+
 ## Code 1: Calculating average wavenumber
 #' My Function 1
 

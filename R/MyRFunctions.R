@@ -17,7 +17,6 @@ print_average_wavenumber <- function(average_wavenumber) {
 average_wavenumber <- calculate_average_wavenumber(raman_hdpe)
 print_average_wavenumber(average_wavenumber)
 
-
 ## Code 3: Calculating intensity ratio
 calculate_intensity_ratio <- function(peak1_intensity, peak2_intensity) {
   ratio <- peak1_intensity/peak2_intensity

@@ -28,7 +28,7 @@ print_average_wavenumber(average_wavenumber)
 ## Code 3: Calculating intensity ratio
 #' My Function 3
 
-#' This function calculates the intensity ratio between two peaks.
+#' This function calculates the intensity ratio between two peaks of the user's choice.
 calculate_intensity_ratio <- function(peak1_intensity, peak2_intensity) {
   ratio <- peak1_intensity/peak2_intensity
   return(ratio)

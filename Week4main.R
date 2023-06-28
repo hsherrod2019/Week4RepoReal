@@ -8,4 +8,6 @@ use_git()
 use_r("calculate_intensity_ratio")
 load_all()
 
-calculate_intensity_ratio(c("20", "30"))
+calculate_intensity_ratio(20, 30)
+
+check()

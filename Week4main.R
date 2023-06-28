@@ -1,5 +1,7 @@
 library(devtools)
 
+options(repos = "https://cran.r-project.org")
+
 create_package("~/Documents/Week4RPackage/Week4RepoReal")
 
 use_git()

@@ -7,11 +7,18 @@
 calculate_intensity_ratio(peak1_intensity, peak2_intensity)
 }
 \arguments{
-\item{peak2_intensity}{}
+\item{peak1_intensity}{The intensity of the first peak}
+
+\item{peak2_intensity}{The intensity of the second peak}
 }
 \value{
 Ratio between the two intensities
 }
 \description{
 Calculate Intensity Ratio
+}
+\examples{
+calculate_intensity_ratio(20, 30)
+
+
 }

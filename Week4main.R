@@ -47,3 +47,6 @@ use_test("calculate_average_wavenumber")
 test()
 
 use_package("stringr")
+
+#My Function 5
+use_r("calculate_average_intensity")

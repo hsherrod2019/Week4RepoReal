@@ -47,4 +47,5 @@ use_testthat()
 use_test("calculate_average_intensity")
 test()
 
-
+#My Function 1
+use_r("calculate_average_wavenumber")

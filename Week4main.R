@@ -1,5 +1,13 @@
 library(devtools)
-data(raman_hdpe, package = "OpenSpecy")
+library(OpenSpecy)
+run_app()
+get_lib()
+
+#Load library into global environment
+spec_lib <- load_lib()
+
+#Read sample spectrum
+raman_hdpe <- read_text(read_extdata("raman_hdpe.csv"))
 
 create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")
 

@@ -49,3 +49,12 @@ test()
 
 #My Function 1
 use_r("calculate_average_wavenumber")
+load_all()
+
+calculate_average_wavenumber(raman_hdpe)
+
+document()
+
+?calculate_average_wavenumber
+
+check()

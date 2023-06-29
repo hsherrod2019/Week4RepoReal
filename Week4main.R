@@ -1,4 +1,5 @@
 library(devtools)
+data(raman_hdpe, package = "OpenSpecy")
 
 create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")
 
@@ -43,3 +44,4 @@ install()
 
 use_testthat()
 use_test("calculate_average_wavenumber")
+test()

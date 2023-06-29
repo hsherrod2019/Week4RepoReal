@@ -7,7 +7,7 @@
 calculate_average_wavenumber(raman_hdpe)
 }
 \arguments{
-\item{raman_hdpe}{Raman spectra data; can substitute for different data set}
+\item{raman_hdpe}{Raman spectra data; can substitute with different data set}
 }
 \value{
 Average wavenumber of an entire data set

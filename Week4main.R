@@ -50,3 +50,8 @@ use_package("stringr")
 
 #My Function 5
 use_r("calculate_average_intensity")
+load_all()
+
+calculate_average_intensity(raman_hdpe)
+
+check()

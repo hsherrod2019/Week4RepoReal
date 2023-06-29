@@ -1,6 +1,6 @@
 #' Calculate Average Wavenumber
 #'
-#' @param raman_hdpe Raman spectra data; can substitute for different data set
+#' @param raman_hdpe Raman spectra data; can substitute with different data set
 #'
 #' @return Average wavenumber of an entire data set
 #' @export

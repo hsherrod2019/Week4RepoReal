@@ -38,3 +38,8 @@ check()
 document()
 
 ?calculate_average_wavenumber
+
+install()
+
+use_testthat()
+use_test("calculate_average_wavenumber")

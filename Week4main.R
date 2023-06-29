@@ -5,7 +5,7 @@ create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")
 
 use_git()
 
-#myfunction3
+#My Function 3
 use_r("calculate_intensity_ratio.R")
 
 load_all()
@@ -28,7 +28,7 @@ test()
 
 use_package("stringr")
 
-#myfunction1
+#My Function 1
 use_r("calculate_average_wavenumber")
 load_all()
 
@@ -45,3 +45,5 @@ install()
 use_testthat()
 use_test("calculate_average_wavenumber")
 test()
+
+use_package("stringr")

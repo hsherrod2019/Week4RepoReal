@@ -8,6 +8,7 @@
 #' @examples
 #' calculate_average_intensity <- function(your_data) `...`
 #'
+#'@importFrom OpenSpecy data
 calculate_average_intensity <- function(raman_hdpe) {
   average_intensity <- mean(raman_hdpe$intensity)
   return(average_intensity)

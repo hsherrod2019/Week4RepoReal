@@ -40,3 +40,13 @@ check()
 document()
 
 ?calculate_average_intensity
+
+check()
+
+install()
+
+use_testthat()
+use_test("calculate_average_intensity")
+test()
+
+use_package("stringr")

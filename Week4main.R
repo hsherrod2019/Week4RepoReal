@@ -29,3 +29,12 @@ use_package("stringr")
 
 #myfunction1
 use_r("calculate_average_wavenumber")
+load_all()
+
+calculate_average_wavenumber(raman_hdpe)
+
+check()
+
+document()
+
+?calculate_average_wavenumber

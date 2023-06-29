@@ -26,3 +26,6 @@ use_test("calculate_intensity_ratio")
 test()
 
 use_package("stringr")
+
+#myfunction1
+use_r("calculate_average_wavenumber")

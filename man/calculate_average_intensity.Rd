@@ -7,10 +7,10 @@
 calculate_average_intensity(raman_hdpe)
 }
 \arguments{
-\item{raman_hdpe}{Raman spectra data set; can substitute with your own data set}
+\item{raman_hdpe}{Raman spectra data set; feel free to choose your own}
 }
 \value{
-Average intensity of the entire data set
+Average intensity of entire data set
 }
 \description{
 Calculate Average Intensity

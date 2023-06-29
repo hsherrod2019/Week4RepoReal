@@ -1,5 +1,7 @@
 library(devtools)
 library(OpenSpecy)
+raman_hdpe <- read_text(read_extdata("raman_hdpe.csv"))
+write.csv(raman_hdpe, file = "/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/raman_hdpe.csv", row.names = FALSE)
 
 create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")
 
@@ -41,12 +43,8 @@ document()
 
 ?calculate_average_intensity
 
-check()
-
-install()
-
 use_testthat()
 use_test("calculate_average_intensity")
 test()
 
-use_package("stringr")
+

@@ -1,9 +1,9 @@
 test_that("calculate_average_intensity works", {
-  test_data <- data.frame(raman_hdpe)
+  data(raman_hdpe, package = "OpenSpecy")
 
-  expected_intensity <- mean(test_data$intensity, na.rm = TRUE)
+  expected_intensity <- mean(raman_hdpe$intensity, na.rm = TRUE)
 
-  result <- calculate_average_intensity(test_data)
+  result <- calculate_average_intensity(raman_hdpe)
 
   expect_equal(result, expected_intensity)
 })

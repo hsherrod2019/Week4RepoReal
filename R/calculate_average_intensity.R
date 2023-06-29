@@ -1,17 +1,14 @@
 #' Calculate Average Intensity
 #'
-#' @param raman_hdpe Raman spectra data; can substitute with different data set
+#' @param raman_hdpe Raman spectra data set; can substitute with your own data set
 #'
-#' @return Average intensity of an entire data set
+#' @return Average intensity of the entire data set
+#' @export
 #'
 #' @examples
-#' calculate_average_intensity <- function(your data) `...`
+#' calculate_average_intensity <- function(your_data) `...`
 #'
-#' @export
-data(raman_hdpe, package = "OpenSpecy")
-
 calculate_average_intensity <- function(raman_hdpe) {
   average_intensity <- mean(raman_hdpe$intensity)
   return(average_intensity)
 }
-

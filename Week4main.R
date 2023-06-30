@@ -57,4 +57,6 @@ document()
 
 ?calculate_average_wavenumber
 
-check()
+use_testthat()
+use_test("calculate_average_wavenumber")
+test()

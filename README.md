@@ -35,11 +35,15 @@ An R package is a collection of functions, data, and documentation that acts lik
 # My R Package
 Created three R packages incorporating functions that I created during the Week 2 training.
 
-## R Package 1: Calculate Average Wavenumber Package
+### R Package 1: Calculate Average Wavenumber Package
 Allows users to input their data, which then calculates the overall average wavenumber of their data set
 
-## R Package 3: Calculate Intensity Ratio Package
+### R Package 3: Calculate Intensity Ratio Package
 Allows users to input two values (for example: two peak intensities) which then returns a ratio of the two values
 
-## R Package 5: Calculate Average Intensity Package
+### R Package 5: Calculate Average Intensity Package
 Allows users to input their data, which then calculates the overall average intensity of their data set
+
+# Installation
+### Reference
+[Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.

@@ -116,12 +116,6 @@ print(paste("Average Intensity:", average_intensity))
 ### Reference
 [Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
 
-### Input this code first to access the raman_hdpe sample data for R package 1 and 5 (or you can use your own data set)!
-```
-library(OpenSpecy)
-raman_hdpe <- read_text(read_extdata("raman_hdpe.csv"))
-```
-
 # Roadmap
 ```mermaid
 gantt

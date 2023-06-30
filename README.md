@@ -53,3 +53,23 @@ Allows users to input their data, which then calculates the overall average inte
 library(OpenSpecy)
 raman_hdpe <- read_text(read_extdata("raman_hdpe.csv"))
 ```
+
+# Roadmap
+```mermaid
+gantt
+    title Roadmap Practice Timeline for Week 4
+    dateFormat  YYYY-MM-DD
+    section creating the R Package
+    Examples of other R Packages                :2023-06-26,                             2023-06-30
+    How to incorporate functions                :2023-06-26,                             2023-06-30
+    Putting R packages together                               :2023-06-28,               2023-06-30
+    section making week 4 repo
+    Outline of repo                                                         :2023-06-29, 2023-06-30
+    Including external links                                                            :2023-06-30,    2023-06-30
+    Format and grammar corrections                                                      :2023-06-30,    2023-06-30
+```
+
+# Helpful Resources
+[Examples of R Packages](https://github.com/nanxstats/awesome-shiny-extensions)
+
+[Tutorial on how to build an R Package](https://www.prestevez.com/post/r-package-tutorial/)

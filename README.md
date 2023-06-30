@@ -116,6 +116,11 @@ print(paste("Average Intensity:", average_intensity))
 ### Reference
 [Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
 
+### Load the OpenSpecy library first
+```
+library(OpenSpecy)
+```
+
 # Roadmap
 ```mermaid
 gantt

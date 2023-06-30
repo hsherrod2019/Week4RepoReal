@@ -6,7 +6,7 @@ Week 4: Making an R Package Using Week 2 Functions
 1. Contact
 2. Contributing
 3. What is an R Package?
-4. How to make an R Package for Beginners
+4. Key Points of an R Package
 5. My R Package
 6. Installation
 7. Roadmap
@@ -23,3 +23,23 @@ Remember to adhere to this project's [Code of Conduct](https://github.com/Cambal
 
 # What is an R Package?
 An R package is a collection of functions, data, and documentation that acts like a toolkit for users to perform tasks in R studio. They are created by developers and shared with the R community.
+
+# Key points of an R Package
+1. Functionality: Each package typically focuses on a specific area of analysis
+2. Installation: Need to install an R package to use it
+3. Loading a package: Need to load an R package once it is installed
+4. Function usage: After loading a package, you can use its functions to perform specific tasks
+5. Documentation: R packages come with documentation that explains how to use their functions and provide examples
+6. Community and updates: R packages are created and maintained by a community of developers and are often updated to fix bugs, add new features, etc.
+
+# My R Package
+Created three R packages incorporating functions that I created during the Week 2 training.
+
+## R Package 1: Calculate Average Wavenumber Package
+Allows users to input their data, which then calculates the overall average wavenumber of their data set
+
+## R Package 3: Calculate Intensity Ratio Package
+Allows users to input two values (for example: two peak intensities) which then returns a ratio of the two values
+
+## R Package 5: Calculate Average Intensity Package
+Allows users to input their data, which then calculates the overall average intensity of their data set

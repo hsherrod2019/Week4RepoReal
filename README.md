@@ -13,13 +13,29 @@ Week 4: Making an R Package Using Week 2 Functions
 8. Helpful Resources
 
 # Installation
+hsherrod2019/Week4RepoReal is available from GitHub
+
+### Install from GitHub
+To install the development version of the package, load the following code into R studio:
+```
+if(!require(devtools))
+install.packages("devtools")
+
+if(!require(OpenSpecy))
+install.packages("OpenSpecy")
+
+devtools::install_github("hsherrod2019/Week4RepoReal")
+```
+
+### Getting Started
+Make sure to load the OpenSpecy package which contains the raman_hdpe.csv; the csv can also be found under the 'Data' tab on the repository
+```
+library(Week4RepoReal)
+library(OpenSpecy)
+```
 ### Reference
 [Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
 
-### Load the OpenSpecy library first
-```
-library(OpenSpecy)
-```
 
 # Contact
 If you want to connect with me, [email here](mailto:hannah@mooreplasticresearch.org)
@@ -42,84 +58,11 @@ An R package is a collection of functions, data, and documentation that acts lik
 6. Community and updates: R packages are created and maintained by a community of developers and are often updated to fix bugs, add new features, etc.
 
 # My R Package
-Created three R packages incorporating functions that I created during the Week 2 training.
+Created an R package incorporating three functions that I created during the Week 2 training.
 
-### R Package 1: Calculate Average Wavenumber Package
-Allows users to input their data, which then calculates the overall average wavenumber of their data set
-```
-data(raman_hdpe, package = "OpenSpecy")
-
-#' Calculate Average Wavenumber
-#'
-#' @param raman_hdpe Raman spectra data; feel free to upload your own instead
-#'
-#' @return Average wavenumber of entire data
-#' @export
-#'
-#' @examples
-#' calculate_average_wavenumber <- function(your_data) `...`
-#'
-calculate_average_wavenumber <- function(raman_hdpe) {
-  if (nrow(raman_hdpe) == 0) {
-    stop("No data available. Please provide Raman spectra data.")
-  }
-
-  average_wavenumber <- mean(raman_hdpe$wavenumber, na.rm = TRUE)
-  return(average_wavenumber)
-}
-
-print_average_wavenumber <- function(average_wavenumber) {
-  cat("Average Wavenumber:", average_wavenumber, "\n")
-}
-
-average_wavenumber <- calculate_average_wavenumber(raman_hdpe)
-print_average_wavenumber(average_wavenumber)
-```
-
-### R Package 3: Calculate Intensity Ratio Package
-Allows users to input two values (for example: two peak intensities) which then returns a ratio of the two values
-```
-#' Calculate Intensity Ratio
-#'
-#' @param peak1_intensity The intensity of the first peak
-#' @param peak2_intensity The intensity of the second peak
-#'
-#' @return Ratio between the two intensities
-#'
-#' @examples
-#' calculate_intensity_ratio(20, 30)
-#'
-#'
-#' @export
-calculate_intensity_ratio <- function(peak1_intensity, peak2_intensity) {
-  ratio <- peak1_intensity/peak2_intensity
-  return(ratio)
-}
-```
-
-### R Package 5: Calculate Average Intensity Package
-Allows users to input their data, which then calculates the overall average intensity of their data set
-```
-data(raman_hdpe, package = "OpenSpecy")
-
-#' Calculate Average Intensity
-#'
-#' @param raman_hdpe Raman spectra data set; feel free to choose your own
-#'
-#' @return Average intensity of entire data set
-#' @export
-#'
-#' @examples
-#' calculate_average_intensity <- function(your_data) `...`
-#'
-calculate_average_intensity <- function(raman_hdpe) {
-  average_intensity <- mean(raman_hdpe$intensity)
-  return(average_intensity)
-}
-
-average_intensity <- calculate_average_intensity(raman_hdpe)
-print(paste("Average Intensity:", average_intensity))
-```
+### #1 Calculate Average Intensity
+### #2 Calculate Intensity Ratio
+### #3 Calculate Average Wavenumber
 
 # Roadmap
 ```mermaid

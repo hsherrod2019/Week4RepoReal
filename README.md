@@ -75,9 +75,9 @@ An R package is a collection of functions, data, and documentation that acts lik
 # My R Package
 Created an R package incorporating three functions that I created during the Week 2 training.
 
-### #1 Calculate Average Intensity
-### #2 Calculate Intensity Ratio
-### #3 Calculate Average Wavenumber
+### #1 Calculate Average Wavenumber
+### #2 Calculate Average Intensity
+### #3 Calculate Intensity Ratio
 
 # Roadmap
 ```mermaid

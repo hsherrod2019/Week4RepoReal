@@ -7,7 +7,7 @@
 calculate_average_intensity(raman_hdpe)
 }
 \arguments{
-\item{raman_hdpe}{Raman spectra data set; feel free to choose your own}
+\item{raman_hdpe}{Raman spectra data set; an example data set}
 }
 \value{
 Average intensity of entire data set
@@ -16,6 +16,7 @@ Average intensity of entire data set
 Calculate Average Intensity
 }
 \examples{
-calculate_average_intensity <- function(your_data) `...`
+data(raman_hdpe, package = "OpenSpecy")
+calculate_average_intensity(raman_hdpe)
 
 }

@@ -87,11 +87,11 @@ gantt
     section creating the R Package
     Examples of other R Packages                :2023-06-26,                             2023-06-30
     How to incorporate functions                :2023-06-26,                             2023-06-30
-    Putting R packages together                               :2023-06-28,               2023-06-30
+    Putting R packages together                               :2023-06-28,               2023-07-03
     section making week 4 repo
-    Outline of repo                                                         :2023-06-29, 2023-06-30
+    Outline of repo                                                         :2023-06-29, 2023-07-03
     Including external links                                                            :2023-06-30,    2023-06-30
-    Format and grammar corrections                                                      :2023-06-30,    2023-06-30
+    Format and grammar corrections                                                      :2023-06-30,    2023-07-03
 ```
 
 # Helpful Resources

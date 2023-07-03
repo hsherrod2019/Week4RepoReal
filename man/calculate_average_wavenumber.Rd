@@ -7,15 +7,16 @@
 calculate_average_wavenumber(raman_hdpe)
 }
 \arguments{
-\item{raman_hdpe}{Raman spectra data; feel free to upload your own instead}
+\item{raman_hdpe}{Raman spectra data; feel free to upload your own data instead}
 }
 \value{
-Average wavenumber of entire data
+Average wavenumber of the entire data set
 }
 \description{
-Calculate Average Wavenumber
+This function calculates the average wavenumber of a given Raman spectra data set.
 }
 \examples{
-calculate_average_wavenumber <- function(your_data) `...`
+data(raman_hdpe, package = "OpenSpecy")
+calculate_average_wavenumber(raman_hdpe)
 
 }

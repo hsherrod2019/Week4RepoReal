@@ -20,5 +20,4 @@ Calculate Intensity Ratio
 \examples{
 calculate_intensity_ratio(20, 30)
 
-
 }

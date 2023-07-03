@@ -8,7 +8,6 @@
 #' @examples
 #' calculate_intensity_ratio(20, 30)
 #'
-#'
 #' @export
 calculate_intensity_ratio <- function(peak1_intensity, peak2_intensity) {
   ratio <- peak1_intensity/peak2_intensity

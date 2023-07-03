@@ -1,5 +1,6 @@
 library(devtools)
 library(OpenSpecy)
+library(Week4RepoReal)
 write.csv(raman_hdpe, file = "/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/raman_hdpe.csv", row.names = FALSE)
 
 create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")

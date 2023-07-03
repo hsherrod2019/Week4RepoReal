@@ -60,3 +60,5 @@ document()
 use_testthat()
 use_test("calculate_average_wavenumber")
 test()
+
+devtools::install()

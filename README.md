@@ -30,6 +30,7 @@ devtools::install_github("hsherrod2019/Week4RepoReal")
 ### Getting Started
 Make sure to load the OpenSpecy package which contains the raman_hdpe.csv; the csv can also be found under the 'Data' tab on the repository
 ```
+library(devtools)
 library(Week4RepoReal)
 library(OpenSpecy)
 ```

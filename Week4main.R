@@ -1,7 +1,14 @@
 library(devtools)
 library(OpenSpecy)
-raman_hdpe <- read_text(read_extdata("raman_hdpe.csv"))
 write.csv(raman_hdpe, file = "/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/raman_hdpe.csv", row.names = FALSE)
+
+if(!require(devtools))
+  install.packages("devtools")
+
+if(!require(OpenSpecy))
+  install.packages("OpenSpecy")
+
+devtools::install_github("hsherrod2019/Week4RepoReal")
 
 create_package("/Users/hannahsherrod/Documents/Week4RPackage/Week4RepoReal/")
 

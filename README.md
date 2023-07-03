@@ -35,6 +35,19 @@ library(Week4RepoReal)
 library(OpenSpecy)
 ```
 
+### Workflow
+This package looks at the average wavenumber, average intensity, and intensity ratio of two peaks
+```
+# Calculate the average wavenumber of the raman_hdpe data set
+calculate_average_wavenumber(raman_hdpe)
+
+# Calculate the average intensity of the raman_hdpe data set
+calculate_average_intensity(raman_hdpe)
+
+# Calculate the ratio of two intensity peaks; make sure to input two values for x and y
+calculate_intensity_ratio(x, y)
+```
+
 ### Reference
 [Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
 

@@ -1,5 +1,7 @@
 #' Calculate Intensity Ratio
 #'
+#' This function calculates the ratio between two intensity peaks.
+#'
 #' @param peak1_intensity The intensity of the first peak
 #' @param peak2_intensity The intensity of the second peak
 #'

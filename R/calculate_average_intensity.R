@@ -1,8 +1,10 @@
 #' Calculate Average Intensity
 #'
+#' This function calculates the average intensity of a given Raman spectra data set.
+#'
 #' @param raman_hdpe Raman spectra data set; an example data set
 #'
-#' @return Average intensity of entire data set
+#' @return Average intensity of the entire data set
 #' @export
 #'
 #' @examples

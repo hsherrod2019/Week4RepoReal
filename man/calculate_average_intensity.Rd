@@ -10,10 +10,10 @@ calculate_average_intensity(raman_hdpe)
 \item{raman_hdpe}{Raman spectra data set; an example data set}
 }
 \value{
-Average intensity of entire data set
+Average intensity of the entire data set
 }
 \description{
-Calculate Average Intensity
+This function calculates the average intensity of a given Raman spectra data set.
 }
 \examples{
 data(raman_hdpe, package = "OpenSpecy")

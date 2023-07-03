@@ -15,7 +15,7 @@ calculate_intensity_ratio(peak1_intensity, peak2_intensity)
 Ratio between the two intensities
 }
 \description{
-Calculate Intensity Ratio
+This function calculates the ratio between two intensity peaks.
 }
 \examples{
 calculate_intensity_ratio(20, 30)

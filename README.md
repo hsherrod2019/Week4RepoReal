@@ -3,14 +3,23 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/csulb?style=social)](https://twitter.com/csulb/with_replies)
 
 Week 4: Making an R Package Using Week 2 Functions
-1. Contact
-2. Contributing
-3. What is an R Package?
-4. Key Points of an R Package
-5. My R Package
-6. Installation
+1. Installation
+2. Contact
+3. Contributing
+4. What is an R package
+5. Key points of an R package
+6. My R Package
 7. Roadmap
 8. Helpful Resources
+
+# Installation
+### Reference
+[Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
+
+### Load the OpenSpecy library first
+```
+library(OpenSpecy)
+```
 
 # Contact
 If you want to connect with me, [email here](mailto:hannah@mooreplasticresearch.org)
@@ -110,15 +119,6 @@ calculate_average_intensity <- function(raman_hdpe) {
 
 average_intensity <- calculate_average_intensity(raman_hdpe)
 print(paste("Average Intensity:", average_intensity))
-```
-
-# Installation
-### Reference
-[Here](https://github.com/wincowgerDEV/OpenSpecy-package) is the Open Specy webpage as a reference to how the functions for these R packages were created.
-
-### Load the OpenSpecy library first
-```
-library(OpenSpecy)
 ```
 
 # Roadmap

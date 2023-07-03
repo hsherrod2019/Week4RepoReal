@@ -13,7 +13,7 @@ Week 4: Making an R Package Using Week 2 Functions
 8. Helpful Resources
 
 # Installation
-hsherrod2019/Week4RepoReal is available from GitHub
+Week4RepoReal is available from GitHub
 
 ### Install from GitHub
 To install the development version of the package, load the following code into R studio:

@@ -19,18 +19,3 @@ calculate_average_wavenumber <- function(raman_hdpe) {
   average_wavenumber <- mean(raman_hdpe$wavenumber, na.rm = TRUE)
   return(average_wavenumber)
 }
-
-#' Print Average Wavenumber
-#'
-#' This function prints the average wavenumber to the console.
-#'
-#' @param average_wavenumber The average wavenumber to be printed
-#'
-print_average_wavenumber <- function(average_wavenumber) {
-  cat("Average Wavenumber:", average_wavenumber, "\n")
-}
-
-# Example usage
-data(raman_hdpe, package = "OpenSpecy")
-average_wavenumber <- calculate_average_wavenumber(raman_hdpe)
-print_average_wavenumber(average_wavenumber)

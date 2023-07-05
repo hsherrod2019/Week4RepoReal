@@ -17,8 +17,8 @@ library(OpenSpecy)
 library(Week4RepoReal)
 data(raman_hdpe, package = "OpenSpecy")
 
-# Call the function to generate the average intensity
+# Call the function to generate the average wavenumber
 average_wavenumber <- calculate_average_wavenumber(raman_hdpe)
 
-# Saving the average intensity as an .rda file
+# Saving the average wavenumber as an .rda file
 save(average_wavenumber, file = "data/average_wavenumber.rda")
